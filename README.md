@@ -6,8 +6,10 @@ The deplyed app link: https://to-do-list-d.herokuapp.com/
 
 The app is made using Node js, Express framework and MongoDB.
 
-To run this app locally 
+To run this app locally:-
+
 1.clone the repo to your PC.
+
 2.install the required module to the todolist-app directory
 ```sh
 $ npm install 
