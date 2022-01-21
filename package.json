@@ -4,7 +4,7 @@
   "description": "Adding DB in todolist",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "author": "Siddharth Bhatnagar",
   "license": "ISC",
@@ -17,6 +17,7 @@
     "ejs": "^2.7.4",
     "express": "^4.17.1",
     "lodash": "^4.17.21",
-    "mongoose": "^5.12.13"
+    "mongoose": "^5.12.13",
+    "nodemon": "^2.0.15"
   }
 }

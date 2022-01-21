@@ -1,6 +1,6 @@
 html {
   background-color: #E4E9FD;
-  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+ 
   min-height: 1000px;
   font-family: 'helvetica neue';
 }
@@ -17,9 +17,16 @@ h1,h2 {
   border-radius: 5px;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
+.topbox{
+  background-image: -webkit-linear-gradient(85deg, #e9794c 50%, #E4E9FD 50%);
+}
+
+.topbox h1{
+  color: #ec4604;
+}
 
 #heading {
-  background-color: #A683E3;
+  background-color: #e9794c;
   text-align: center;
 }
 
@@ -34,9 +41,13 @@ h1,h2 {
   border-bottom: 0;
 }
 
+.item-check{
+  outline: 2px solid #ec4604;
+}
+
 input:checked+p {
   text-decoration: line-through;
-  text-decoration-color: #A683E3;
+  text-decoration-color: #e9794c;
 }
 
 input[type="checkbox"] {
@@ -48,7 +59,7 @@ p {
   padding: 20px;
   font-size: 20px;
   font-weight: 200;
-  color: #00204a;
+  color: #1d1d1f;
 }
 
 form.item {
@@ -61,7 +72,7 @@ button {
   width: 50px;
   border-radius: 50%;
   border-color: transparent;
-  background-color: #A683E3;
+  background-color: #e9794c;
   color: #fff;
   font-size: 30px;
   padding-bottom: 6px;
@@ -81,7 +92,7 @@ input[type="text"] {
 
 input[type="text"]:focus {
   outline: none;
-  box-shadow: inset 0 -3px 0 0 #A683E3;
+  box-shadow: inset 0 -3px 0 0 #e9794c;
 }
 
 ::placeholder {
@@ -96,7 +107,7 @@ footer {
 }
 
 .dropbtn {
-  background-color:#A683E3 ;
+  background-color:#e9794c ;
   width: fit-content;
   color: white;
   padding: 16px;
@@ -134,7 +145,7 @@ footer {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #834fdd;}
+.dropdown:hover .dropbtn {background-color: #f06b36;}
 
 .delete{
   position: absolute;
