@@ -18,7 +18,8 @@ h1,h2 {
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 .topbox{
-  background-image: -webkit-linear-gradient(85deg, #e9794c 50%, #E4E9FD 50%);
+  background-image: -webkit-linear-gradient(83deg, #e9794c 50%, #E4E9FD 50%);
+
 }
 
 .topbox h1{
@@ -156,13 +157,15 @@ footer {
   border-radius: 50%;
 }
 .create{
+  font-size: 180%;
   border-radius: 0%;
   min-height: 30px;
-  text-shadow:white 1px 0 10px;
-  color: grey;
-  width: fit-content;
+  width: 120px;
   position: relative;
-  left: 34%;
+  left: 32%;
+  margin-top: 6px;
   margin-bottom: 6px;
-  padding-bottom:1px ;
+  padding-bottom:5px ;
+  padding-top: 5px;
 }
+.create:hover  {background-color: #f35517;}

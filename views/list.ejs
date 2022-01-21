@@ -12,7 +12,7 @@
         <a href="/<%= lists[i].name %>"><%=  lists[i].name  %></a>
       <% } %>
       <form action="/new/List" method="post">
-        <input type="text" name="newList" placeholder="create new list" autocomplete="off">
+        <input style="background-color: white;" type="text" name="newList" placeholder="New list name" autocomplete="off">
         <button class='create' type="submit">Create</button>
       </form>
     </div>
